@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2924.59 1306.61">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: ArchivoItalic-Bold, Archivo;
+        font-size: 445px;
+        font-variation-settings: 'wght' 700, 'wdth' 100;
+        font-weight: 700;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #694cd4;
+      }
+
+      .cls-2 {
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="translate(1007.1 600.4)"><tspan x="0" y="0">WeLearn</tspan></text>
+  <g>
+    <rect class="cls-2" y="115.36" width="141.54" height="606.6"/>
+    <rect class="cls-2" x="267.7" y="117.36" width="141.54" height="606.6" transform="translate(219.45 -105.98) rotate(26.09)"/>
+    <rect class="cls-2" x="538.89" y="181.29" width="141.54" height="606.6" transform="translate(631.08 -293.91) rotate(53.1)"/>
+  </g>
+</svg>
