@@ -18,11 +18,14 @@
     "axios": "^1.6.5",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
+    "firebase": "^10.7.1",
+    "firebase-admin": "^12.0.0",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18",
     "tailwind-merge": "^2.2.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
     "@types/node": "^20",
