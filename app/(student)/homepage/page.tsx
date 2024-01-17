@@ -3,8 +3,9 @@ import { LessonCard } from '@/components/app/students/lessonCard'
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area"
 import { Button } from "@/components/ui/button"
 
-export default function HomePage() {
-  return (
+export default async function HomePage() {
+  
+return (
     <div className='pt-14 flex flex-col w-full items-start gap-2 px-2'>
         <div>
             <p className='text-lg font-medium pb-2'>My learning</p>
@@ -15,7 +16,7 @@ export default function HomePage() {
             <Button variant="ghost">Rates</Button>
             <Button variant="ghost">Favorited</Button>
             <ScrollBar orientation="horizontal" />
-            </ScrollArea>
+          </ScrollArea>
         </div>
         <LessonCard/>
         <LessonCard/>
