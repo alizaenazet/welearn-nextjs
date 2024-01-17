@@ -13,14 +13,15 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
 import { useFormStatus } from "react-dom";
-
+import { redirect } from "next/navigation";
 import { signIn } from "./actions";
+// import { isUserAuthenticated } from "@/lib/firebase/firebase-admin";
 
-export default function Login() {
+export default async function Login() {
     
     const { pending } = useFormStatus()
 
-    
+    // if (await isUserAuthenticated()) redirect("/dashboard");
 
   return (
     <div className="flex flex-col justify-center items-center w-screen h-screen px-2">
@@ -57,7 +58,7 @@ export default function Login() {
               </div>
             </div>
             <Button  className="w-full" asChild>
-              <button type="submit" >Login</button>
+              <button type="submit">Login</button>
             </Button>
             <Separator />
           </form>
