@@ -13,7 +13,6 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { Separator } from "@/components/ui/separator";
 import { useFormStatus } from "react-dom";
-import { redirect } from "next/navigation";
 import { signIn } from "./actions";
 // import { isUserAuthenticated } from "@/lib/firebase/firebase-admin";
 
