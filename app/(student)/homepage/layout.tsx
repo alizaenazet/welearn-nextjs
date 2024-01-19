@@ -18,13 +18,12 @@ export default async function HomePageLayout({
 }: {
   children: React.ReactNode
 }) {
-  console.log(['student',await authenticateStudent()]);
+  await authenticateStudent()
   
 
   return (
     <html lang="en">
       <body className={inter.className}>
-        <Navbar />
         {children}
         </body>
     </html>
